@@ -1,0 +1,8 @@
+@use '../base/var' as v;
+@use '../base/mixins' as m;
+.input-error{
+    padding: 0;
+    margin: .5rem 0 0 0;
+    list-style-type: none;
+    color: v.$red;
+}
