@@ -4,7 +4,7 @@
 <body>
     @include('layouts.header')
 
-    Bienbenido {{Auth::user()->name}}
+    Bienvenido {{Auth::user()->name}}
 
 </body>
 </html>
